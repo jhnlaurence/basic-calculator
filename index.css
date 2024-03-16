@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*  */
+.kode-mono {
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+    height: 100vh;
+}
+
+.grid {
+    background-color: black; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 105px 50px 50px 50px 50px 50px;
+    grid-template-areas: 
+    "dis dis dis dis"
+    "ac ac div mul"
+    "seven eight nine min"
+    "four five six add"
+    "one two three equal"
+    "zero zero dot equal"
+    ;
+    padding: 5px;
+}   
+
+.dis {
+    grid-area: dis;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.disExpressions {
+    color: orange;
+    border: none;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.total {
+    font-size: 50px;
+    padding: 5px;
+    color: aliceblue;
+}
+
+.padbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    padding: 5px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 1000;
+    background-color: grey;
+}
+
+.padbtn:hover {
+    border-color: white; 
+    border-width: 1px;
+    color: white;
+}
+
+.padbtn:active {
+    background-color: white;
+    color: black;
+}
+
+.ac {
+    grid-area: ac;
+    background-color: red;
+}
+
+.zero {
+    grid-area: zero;
+}
+
+.div, .mul, .min, .add {
+    background-color: darkgrey;
+}
+
+.one, .two, .three, .four, .five, .six, .seven, .eight, .nine{
+}
+
+.equal {
+    grid-area: equal;
+    background-color: red;
+    text-align: center;
+}
