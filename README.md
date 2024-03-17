@@ -3,4 +3,4 @@
 
 ![image](https://github.com/jhnlaurence/basic-calculator/assets/76924425/511a92fd-36e0-401e-8671-5ddfa9f8c454)
 
-Created in complying for the Front End Libraries Certificate in FreeCodeCamp. A proof of the knkowledge I gauned in the courseware/module.
+Created in complying for the Front End Libraries Certificate in FreeCodeCamp. A proof of the knowledge I gained in the courseware/module.
