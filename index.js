@@ -123,12 +123,12 @@ function App(){
         let fixExpression = expression
         if (fixExpression.length > 0) {
             while(symbols.includes(fixExpression.charAt(fixExpression.length - 1))){
-                fixExpression = fixExpression.substring(0, fixExpression.length() - 1);
+                fixExpression = fixExpression.substring(0, fixExpression.length - 1);
             }
 
             const ans = eval(fixExpression);
             setAnswer(ans);
-            setExpression(prev => prev + "=" + ans);
+            setExpression(fixExpression + "=" + ans);
         }
     }
 
